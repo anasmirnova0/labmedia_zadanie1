@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 1</title>
+    <link rel="stylesheet" href="css/style_zadanie1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__block">
+                <a href="" class="logo"><img src="img/1.png" alt="logo" class="logo__img"></a>
+                <p class="header__text">Текст</p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="line">
+            <div class="line__one"></div>
+            <div class="line__two"></div>
+            <div class="line__three"></div>
+        </div> 
+    </div>
+    <main class="main">
+        <div class="container">
+            <h1 class="main__text">Табы</h1>
+        </div>
+    </main>
+
+    <section>
+      <div class="container">
+        <div id="tabs">
+          <div class="tabs-nav">
+            <div class="tab active" data-tab="tab1" onclick="toggleButton()"><a id="tab1" href="#tab-1" >Таб 1</a></div>
+            <div class="tab" data-tab="tab2" onclick="toggleButton()"><a id="tab2" href="#tab-2">Таб 2</a></div>
+            <div class="tab" data-tab="tab3" onclick="toggleButton()"><a href="#tab-3" id="tab3">Таб 3</a></div>
+            <div class="tab" data-tab="tab4" onclick="toggleButton()"><a href="#tab-4" id="tab4">Таб 4</a></div>
+          </div>
+          <div class="tabs-items">
+              <div class="tabs-item tab-content" id="tab-1" data-tab="tab1">
+                  <div class="text tabcontent">
+                      <h4 class="tabcontent_text">Таб 1</h4>
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">1</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">2</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 4</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">3</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                      </div>
+                      
+                  </div>                        
+              </div>
+              <div class="tabs-item tab-content" id="tab-2" data-tab="tab2">
+                  <div class="button__text text tabcontent">
+                    <h4 class="tabcontent_text">Таб 2</h4>
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">1</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">2</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 4</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">3</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                      </div>
+                  </div>                        
+              </div>
+              <div class="tabs-item tab-content" id="tab-3" data-tab="tab3">
+                  <div class="button__text text tabcontent">
+                    <h4 class="tabcontent_text">Таб 3</h4>
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">1</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">2</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 4</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">3</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                      </div>
+                  </div>                        
+              </div>
+              <div class="tabs-item tab-content" id="tab-4" data-tab="tab4">
+                  <div class="button__text text tabcontent">
+                    <h4 class="tabcontent_text">Таб 4</h4>
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">1</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">2</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 4</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__number">3</p>
+                          <p class="tabcontent__p">Заголовок нумерованного списка</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 1</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 2</p>
+                        </div>
+                        <div class="tabcontent__block">
+                          <p class="tabcontent__line">-</p>
+                          <p class="tabcontent__element">Элемент 3</p>
+                        </div>
+                      </div>
+                  </div>
+              </div>		
+          </div>
+        </div>
+
+        <div class="form__container">
+          <button type="button" id="button" class="form__container_input btn-disabled" disabled>Продолжить</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script_zadanie1.js"></script>
+
+    <div class="container">
+        <div class="line">
+            <div class="line__four"></div>
+            <div class="line__five"></div>
+        </div> 
+    </div>
+</body>
+</html>
